@@ -14,7 +14,7 @@ jobs:
     steps:
       # Step 1: Clone your repository into the runner's workspace
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       # Step 2: Set up a dedicated Python environment
       - name: Set up Python
