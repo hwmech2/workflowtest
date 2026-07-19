@@ -30,4 +30,4 @@ jobs:
 
       # Step 4: Execute the Python script
       - name: Run Script
-        run: hello.py
+        run: python hello.py
